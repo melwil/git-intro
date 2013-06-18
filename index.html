@@ -7,6 +7,11 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
         <script src="http://cloud.github.com/downloads/kjbekkelund/remark-bekk/bekk-0.0.3.js" type="text/javascript"></script>
         <link href="http://cloud.github.com/downloads/kjbekkelund/remark-bekk/bekk-0.0.3.css" type="text/css" rel="stylesheet"/>
+        <style>
+            #slideshow .slide .content.front-page {
+                background-image: none;
+            }
+        </style>
     </head>
     <body>
         <textarea id="source">
@@ -25,7 +30,23 @@
 
 ---
 
+# Hvorfor kildekodekontroll?
 
+* Synkronisere mellom utviklere
+* Backup av arbeid
+* Historikk
+
+---
+
+# Distribuert arkitektur
+
+* remote 
+* origin
+* clone
+* commits
+
+.pushed
+![](images/git-flows.svg)
 
         </textarea>
         <div id="slideshow"></div>
