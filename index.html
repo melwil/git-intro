@@ -30,6 +30,7 @@
 * Kildekodekontroll (Source Code Management - SCM)
 * Distribuert arkitektur
 * Tre-struktur (vs linjært i SVN)
+* Vanlige kommandoer
 * Tips og Triks
 
 ---
@@ -64,6 +65,7 @@
 
 * Noder
     * Identifisert av en SHA1 hash sum av filene i commiten
+    * Collision
 * Branching
 * Merge
 * Rebase
@@ -79,10 +81,23 @@
 
 ---
 
+# Vanlige kommandoer
+
+* git pull
+* git add fil/mappe
+* git commit -m "melding"
+* git reset
+* git checkout
+* git push
+
+---
+
 # Tips og Triks
 
 * git stash
 * git commit -am
+* git reset --soft HEAD^
+* git reset --hard origin/branch
 
 Fine bash alias for git:
 
